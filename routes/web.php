@@ -12,7 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('vendor.index');
+});
+Route::get('/about', function () {
+    return view('vendor.about');
+});
+Route::get('/tour', function () {
+    return view('vendor.tour');
+});
+Route::get('/hotel', function () {
+    return view('vendor.hotel');
+});
+Route::get('/blog', function () {
+    return view('vendor.blog');
+});
+Route::get('/contact', function () {
+    return view('vendor.contact');
+});
+Route::get('/index', function () {
+    return view('vendor.index');
 });
 
 Auth::routes();
