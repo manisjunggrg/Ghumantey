@@ -32,6 +32,9 @@ Route::get('/contact', function () {
 Route::get('/index', function () {
     return view('vendor.index');
 });
+Route::get('/useradmin', function () {
+    return view('admin.index');
+});
 
 Auth::routes();
 

@@ -21,8 +21,8 @@ Ghumantey
                   <div class="select-wrap one-third">
                     <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                     <select name="" id="" class="form-control" placeholder="Keyword search">
-                      <option value="">Where</option>
-                      <option value="">San Francisco USA</option>
+                      <option value="" selected>Where</option>
+                      <option value="">Jhapa</option>
                       <option value="">Berlin Germany</option>
                       <option value="">Lodon United Kingdom</option>
                       <option value="">Paris Italy</option>
