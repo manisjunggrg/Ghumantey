@@ -5,11 +5,11 @@
 Ghumantey
 @endsection
     @section('content')
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/logo.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-9 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+          <div class="col-md-5 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>Explore <br></strong> your amazing city</h1>
             <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Find great places to stay, eat, shop, or visit from local experts</p>
             <div class="block-17 my-4">
@@ -32,13 +32,13 @@ Ghumantey
                 <input type="submit" class="search-submit btn btn-primary" value="Search">  
               </form>
             </div>
-            <p>Or browse the highlights</p>
+            <!-- <p>Or browse the highlights</p>
             <p class="browse d-md-flex">
             	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-fork"></i>Restaurant</a></span>
             	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-hotel"></i>Hotel</a></span> 
             	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-meeting-point"></i>Places</a></span> 
             	<span class="d-flex justify-content-md-center align-items-md-	center"><a href="#"><i class="flaticon-shopping-bag"></i>Shopping</a></span>
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ Ghumantey
     				<div class="destination-slider owl-carousel ftco-animate">
     					<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/destination-1.jpg);">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g1.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -113,7 +113,7 @@ Ghumantey
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/destination-2.jpg);">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g2.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -126,7 +126,7 @@ Ghumantey
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/destination-3.jpg);">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g3.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -139,7 +139,7 @@ Ghumantey
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/destination-4.jpg);">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g4.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -152,7 +152,7 @@ Ghumantey
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/destination-5.jpg);">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g5.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -165,7 +165,7 @@ Ghumantey
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/destination-6.jpg);">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g6.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -367,7 +367,7 @@ Ghumantey
     	</div>
     </section>
 
-    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
+    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/g3.jpg);">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">

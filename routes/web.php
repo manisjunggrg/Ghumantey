@@ -24,7 +24,7 @@ Route::get('/hotel', function () {
     return view('vendor.hotel');
 });
 Route::get('/blog', function () {
-    return view('vendor.blog');
+    return view('vendor.blog-single');
 });
 Route::get('/contact', function () {
     return view('vendor.contact');

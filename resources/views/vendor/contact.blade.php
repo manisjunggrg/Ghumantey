@@ -7,7 +7,7 @@ Ghumantey | Contact
 @endsection
 
 @section('content')
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/visit5.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -61,7 +61,9 @@ Ghumantey | Contact
           
           </div>
 
-          <div class="col-md-6" id="map"></div>
+          <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14134.00727900619!2d85.340132!3d27.670881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x368dbad07042b560!2sKathford%20Int&#39;l%20College%20of%20Engineering%20and%20Management!5e0!3m2!1sen!2snp!4v1581008687052!5m2!1sen!2snp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
         </div>
       </div>
     </section>
