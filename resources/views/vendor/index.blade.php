@@ -18,15 +18,15 @@ Ghumantey
                   	<input type="text" id="search" class="form-control" placeholder="Search City">
                   </div>
                 </div>
-                <input type="submit" class="search-submit btn btn-primary" value="Search">  
+                <input type="submit" class="search-submit btn btn-primary" value="Search">
               </form>
             </div>
-           
+
           </div>
         </div>
       </div>
     </div>
-	
+
     <section class="ftco-section services-section bg-light">
       <div class="container">
         <div class="row d-flex">
@@ -37,39 +37,39 @@ Ghumantey
                 <h3 class="heading mb-3">Best Price Guarantee</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-like"></span></div></div>
               <div class="media-body p-2 mt-2">
                 <h3 class="heading mb-3">Travellers Love Us</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <p>We will provides the information and events which are beign in that particular places</p>
               </div>
-            </div>    
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-detective"></span></div></div>
               <div class="media-body p-2 mt-2">
                 <h3 class="heading mb-3">Best Travel Agent</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <p>You can rent a bike with a guide</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-support"></span></div></div>
               <div class="media-body p-2 mt-2">
-                <h3 class="heading mb-3">Our Dedicated Support</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">Homestay</h3>
+                <p>We will provides the services like Homestay which will help to increase the economics in each places</p>
               </div>
-            </div>      
+            </div>
           </div>
         </div>
       </div>
     </section>
-    
+
     <section class="ftco-section ftco-destination">
     	<div class="container">
     		<div class="row justify-content-start mb-5 pb-3">
@@ -165,7 +165,7 @@ Ghumantey
     	</div>
     </section>
 
-  
+
 
     <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/g3.jpg);">
     	<div class="container">
@@ -286,7 +286,7 @@ Ghumantey
       </div>
     </section>
 
-   
+
 
     <section class="ftco-section bg-light">
       <div class="container">
@@ -360,7 +360,7 @@ Ghumantey
         </div>
       </div>
     </section>
-		
-	
+
+
 	@endsection
 

@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab36c3ee-0843-42cc-af98-aed18abef7fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/customize_packages.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GuideController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GuideController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/master/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/detail_package.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/detail_package.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/guide.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/guide.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/vendor/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/place.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/place.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -156,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578051907355</updated>
       <workItem from="1578051909117" duration="577000" />
-      <workItem from="1581055946148" duration="93000" />
+      <workItem from="1581055946148" duration="10243000" />
     </task>
     <servers />
   </component>
@@ -184,9 +194,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1236" height="222" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578052486423" />
-    <state x="740" y="290" width="672" height="678" key="search.everywhere.popup" timestamp="1581055973668">
+    <state x="845" y="462" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581057310035">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="740" y="290" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1581055973668" />
+    <state x="845" y="462" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1581057310035" />
+    <state x="740" y="290" width="672" height="678" key="search.everywhere.popup" timestamp="1581070865004">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="740" y="290" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1581070865004" />
   </component>
 </project>
