@@ -42,27 +42,29 @@ Ghumantey | Contact
         <div class="row block-9">
           <div class="col-md-6 pr-md-5">
 
-                  <div class="content-wrapper">
-                      <div class="container">
-                          @if (session()->has('error'))
-                              <div class="alert alert-danger">
-                                  {!! session()->get('error') !!}
 
-                              </div>
-                          @endif
-                          @if (session()->has('success'))
-                              <div class="alert alert-success">
-                                  {!! session()->get('success') !!}
-
-                              </div>
-                          @endif
-
-                      </div>
 
 
             <form action="{{route('message.store')}}" method="post">
                 <input type="hidden" method="post">
                 @csrf
+                <div class="content-wrapper">
+                    <div class="container">
+                        @if (session()->has('error'))
+                            <div class="alert alert-danger">
+                                {!! session()->get('error') !!}
+
+                            </div>
+                        @endif
+                        @if (session()->has('success'))
+                            <div class="alert alert-success">
+                                {!! session()->get('success') !!}
+
+                            </div>
+                        @endif
+
+                    </div>
+                    </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="name" placeholder="Your Name" required>
               </div>
