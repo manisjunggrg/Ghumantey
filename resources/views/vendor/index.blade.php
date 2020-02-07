@@ -380,6 +380,7 @@ Ghumantey
     	</div>
     </section>
 
+
     <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/g3.jpg);">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
@@ -795,9 +796,6 @@ Ghumantey
     	</div>
     </section>
 
-
-
-    
 
     <section class="ftco-section bg-light">
       <div class="container">

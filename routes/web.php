@@ -23,9 +23,6 @@ Route::get('/about', function () {
 Route::get('/tour', function () {
     return view('vendor.tour');
 });
-Route::get('/hotel', function () {
-    return view('vendor.hotel');
-});
 Route::get('/blog', function () {
     return view('vendor.blog-single');
 });
@@ -44,6 +41,10 @@ Route::get('/place', function () {
 
 Route::get('/detail_package', function () {
     return view('vendor.detail_package');
+});
+
+Route::get('/customize_packages', function () {
+    return view('vendor.customize_packages');
 });
 Auth::routes();
 
@@ -64,5 +65,6 @@ Route::group(['middleware' => ['auth']], function() {
 Route::get('/getCity', 'ClientController@getCity')->name('city');
 Route::resources([
     'guide'=>'GuideController',
+        'client'=>'ClientController'
 ]
 );

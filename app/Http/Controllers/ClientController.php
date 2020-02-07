@@ -14,13 +14,13 @@ class ClientController extends Controller
     public function index()
     {
     }
-    
+
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    
+
     public function create()
     {
         //
@@ -34,7 +34,10 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       $days=  $request->days;
+       $name = $request->name;
+       return view('vendor.detail_package',compact('name','days'));
+
     }
 
     /**

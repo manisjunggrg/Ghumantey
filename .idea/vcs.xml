@@ -2,9 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-<<<<<<< HEAD
-=======
     <mapping directory="$PROJECT_DIR$/Ghymantey" vcs="Git" />
->>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
   </component>
 </project>
