@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('vendor.index');
 });
+Route::get('/admin', function () {
+    return view('vendor.index');
+});
 Route::get('/about', function () {
     return view('vendor.about');
 });
