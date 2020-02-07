@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.jpg">
   </head>
   <body>
     
@@ -40,7 +41,6 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="package" class="nav-link">packages</a></li>
           <li class="nav-item"><a href="guide" class="nav-link">Guide</a></li>
           <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
           <li class="nav-item cta"><a href="contact" class="nav-link"><span>Add listing</span></a></li>
@@ -141,6 +141,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+    @yield('script') 
   </body>
 </html>

@@ -7,15 +7,15 @@ Ghumantey
     @section('content')
     <div class="hero-wrap js-fullheight" style="background-image: url('images/logo.jpg');">
       <div class="overlay"></div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-5 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>Explore <br></strong> your amazing city</h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Find great places to stay, eat, shop, or visit from local experts</p>
+          <div class="col-md-4 offset-md-1 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 0.6 }"><strong>Find <br></strong> your amazing city</h1>
             <div class="block-17 my-4">
-              <form action="" method="post" class="d-block d-flex">
+              <form action="/place" method="" class="d-block d-flex">
                 <div class="fields d-block d-flex">
                   <div class="textfield-search one-third">
+<<<<<<< HEAD
                   	<input type="text" class="form-control" placeholder="Ex: food, service, hotel">
                   </div>
                   <div class="select-wrap one-third">
@@ -27,11 +27,15 @@ Ghumantey
                       <option value="">Lukla</option>
                       <option value="">Chitwan</option>
                     </select>
+=======
+                  	<input type="text" id="search" class="form-control" placeholder="Search City">
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
                   </div>
                 </div>
                 <input type="submit" class="search-submit btn btn-primary" value="Search">
               </form>
             </div>
+<<<<<<< HEAD
             <!-- <p>Or browse the highlights</p>
             <p class="browse d-md-flex">
             	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-fork"></i>Restaurant</a></span>
@@ -39,11 +43,14 @@ Ghumantey
             	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-meeting-point"></i>Places</a></span>
             	<span class="d-flex justify-content-md-center align-items-md-	center"><a href="#"><i class="flaticon-shopping-bag"></i>Shopping</a></span>
             </p> -->
+=======
+           
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
           </div>
         </div>
       </div>
     </div>
-
+	
     <section class="ftco-section services-section bg-light">
       <div class="container">
         <div class="row d-flex">
@@ -100,78 +107,102 @@ Ghumantey
     				<div class="destination-slider owl-carousel ftco-animate">
     					<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g1.jpg);">
+		    					<a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g0.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
+<<<<<<< HEAD
 		    						<h3><a href="#">Sampang,Bhojpur</a></h3>
+=======
+		    						<h3><a href="/place">Pokhara</a></h3>
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 		    						<span class="listing">15 Listing</span>
 		    					</div>
 		    				</div>
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g2.jpg);">
+		    					<a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g2.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
+<<<<<<< HEAD
 		    						<h3><a href="#">Chitwan</a></h3>
+=======
+		    						<h3><a href="/place">Janakpur</a></h3>
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 		    						<span class="listing">20 Listing</span>
 		    					</div>
 		    				</div>
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g3.jpg);">
+		    					<a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g3.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
+<<<<<<< HEAD
 		    						<h3><a href="#">Bhaktapur</a></h3>
+=======
+		    						<h3><a href="/place">Bhaktapur</a></h3>
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 		    						<span class="listing">10 Listing</span>
 		    					</div>
 		    				</div>
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g4.jpg);">
+		    					<a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g4.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
+<<<<<<< HEAD
 		    						<h3><a href="#">Everest Base Camp</a></h3>
+=======
+		    						<h3><a href="/place">Khumbu</a></h3>
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 		    						<span class="listing">3 Listing</span>
 		    					</div>
 		    				</div>
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g5.jpg);">
+		    					<a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g5.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
+<<<<<<< HEAD
 		    						<h3><a href="#">Dolakha</a></h3>
+=======
+		    						<h3><a href="/place">Chitwan National Park</a></h3>
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 		    						<span class="listing">3 Listing</span>
 		    					</div>
 		    				</div>
 	    				</div>
 	    				<div class="item">
 		    				<div class="destination">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g6.jpg);">
+		    					<a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g6.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
+<<<<<<< HEAD
 		    						<h3><a href="#">Janakpur Dham</a></h3>
+=======
+		    						<h3><a href="/place">Janakpur</a></h3>
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 		    						<span class="listing">3 Listing</span>
 		    					</div>
 		    				</div>
@@ -182,6 +213,7 @@ Ghumantey
     	</div>
     </section>
 
+<<<<<<< HEAD
     <section class="ftco-section bg-light">
     	<div class="container">
 				<div class="row justify-content-start mb-5 pb-3">
@@ -366,6 +398,9 @@ Ghumantey
     		</div>
     	</div>
     </section>
+=======
+  
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 
     <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/g3.jpg);">
     	<div class="container">
@@ -417,6 +452,7 @@ Ghumantey
     </section>
 
 
+<<<<<<< HEAD
     <section class="ftco-section">
     	<div class="container">
 				<div class="row justify-content-start mb-5 pb-3">
@@ -596,6 +632,9 @@ Ghumantey
     		</div>
     	</div>
     </section>
+=======
+
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
@@ -664,6 +703,7 @@ Ghumantey
       </div>
     </section>
 
+<<<<<<< HEAD
     <section class="ftco-section">
     	<div class="container">
 				<div class="row justify-content-start mb-5 pb-3">
@@ -780,6 +820,9 @@ Ghumantey
     		</div>
     	</div>
     </section>
+=======
+   
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
 
     <section class="ftco-section bg-light">
       <div class="container">
@@ -853,5 +896,12 @@ Ghumantey
         </div>
       </div>
     </section>
+<<<<<<< HEAD
 
 @endsection
+=======
+		
+	
+	@endsection
+
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
