@@ -44,7 +44,7 @@ Ghumantey
               <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-like"></span></div></div>
               <div class="media-body p-2 mt-2">
                 <h3 class="heading mb-3">Travellers Love Us</h3>
-                <p>We will provides the information and events which are beign in that particular places</p>
+                <p>A small river named Duden flows by their place and supplies.</p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ Ghumantey
               <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-detective"></span></div></div>
               <div class="media-body p-2 mt-2">
                 <h3 class="heading mb-3">Best Travel Agent</h3>
-                <p>You can rent a bike with a guide</p>
+                <p>A small river named Duden flows by their place and supplies.</p>
               </div>
             </div>
           </div>
@@ -61,8 +61,8 @@ Ghumantey
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-support"></span></div></div>
               <div class="media-body p-2 mt-2">
-                <h3 class="heading mb-3">Homestay</h3>
-                <p>We will provides the services like Homestay which will help to increase the economics in each places</p>
+                <h3 class="heading mb-3">Our Dedicated Support</h3>
+                <p>A small river named Duden flows by their place and supplies.</p>
               </div>
             </div>
           </div>

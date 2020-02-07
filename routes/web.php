@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('vendor.index');
 });
+Route::get('/admin', function () {
+    return view('vendor.index');
+});
 Route::get('/about', function () {
     return view('vendor.about');
 });
@@ -46,7 +49,19 @@ Route::get('/customize_packages', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+//for roles and permission
+Route::group(['middleware' => ['auth']], function() {
+    Route::resource('roles','RoleController');
+    Route::resource('users','UserController');
+    Route::resource('products','ProductController');
+});
 Route::get('/getCity', 'ClientController@getCity')->name('city');
 Route::resources([
     'guide'=>'GuideController',

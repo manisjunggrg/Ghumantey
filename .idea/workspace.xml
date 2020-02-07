@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab36c3ee-0843-42cc-af98-aed18abef7fb" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/resources/views/vendor/customize_packages.blade.php" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/resources/views/error.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/roles/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/roles/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/roles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/roles/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/roles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/roles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+>>>>>>> fffb15ee528747b8de23c4d22b7f84b912e3d428
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GuideController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GuideController.php" afterDir="false" />
@@ -12,7 +27,11 @@
       <change beforePath="$PROJECT_DIR$/resources/views/vendor/detail_package.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/detail_package.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/vendor/guide.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/guide.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/vendor/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/index.blade.php" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/resources/views/vendor/place.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/place.blade.php" afterDir="false" />
+=======
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
+>>>>>>> fffb15ee528747b8de23c4d22b7f84b912e3d428
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,10 +140,18 @@
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Vspxzsufn5gEPfAfzza7jONE7F" />
+<<<<<<< HEAD
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+=======
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -166,7 +193,15 @@
       <option name="presentableId" value="Default" />
       <updated>1578051907355</updated>
       <workItem from="1578051909117" duration="577000" />
+<<<<<<< HEAD
       <workItem from="1581055946148" duration="10243000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1581000765512" duration="11120000" />
+=======
+      <workItem from="1581055946148" duration="93000" />
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
+>>>>>>> fffb15ee528747b8de23c4d22b7f84b912e3d428
     </task>
     <servers />
   </component>
@@ -178,6 +213,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="418" y="260" width="800" height="677" key="#Composer/67.27.1853.1053@67.27.1853.1053" timestamp="1578052068108" />
+    <state x="500" y="208" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581070796410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="500" y="208" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1581070796410" />
     <state width="1236" height="222" key="GridCell.Tab.0.bottom" timestamp="1578052486425">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -194,6 +233,7 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1236" height="222" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578052486423" />
+<<<<<<< HEAD
     <state x="845" y="462" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581057310035">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -202,5 +242,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="740" y="290" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1581070865004" />
+=======
+<<<<<<< HEAD
+    <state x="449" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1581000766307">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581000766307" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1581070909908">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1581070909908" />
+=======
+    <state x="740" y="290" width="672" height="678" key="search.everywhere.popup" timestamp="1581055973668">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="740" y="290" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1581055973668" />
+>>>>>>> 5a0997808e7a0f8fa8f9aaa40fa4360fdc14fbdc
+>>>>>>> fffb15ee528747b8de23c4d22b7f84b912e3d428
   </component>
 </project>

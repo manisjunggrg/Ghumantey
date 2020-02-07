@@ -142,11 +142,23 @@
                               <p>list</p>
                           </a>
                       </li>
+                      <li class="nav-item">
+                          <a href="/roles" class="nav-link <?php if(url()->current()==url('list_admin')){echo "active";}?>">
+                              <i class="far fa-circle nav-icon"></i>
+                              <p>Roles</p>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="/users" class="nav-link <?php if(url()->current()==url('list_admin')){echo "active";}?>">
+                              <i class="far fa-circle nav-icon"></i>
+                              <p>Users</p>
+                          </a>
+                      </li>
 
 
                   </ul>
               </li>
-             
+
 
 
               <li class="nav-item has-treeview">
@@ -181,7 +193,7 @@
         </li>
 
 
-        
+
           {{--This is for tourist --}}
           <li class="nav-item has-treeview">
                   <a href="" class="nav-link <?php if(url()->current()==url('list_tourist')) { echo "active";} ?>">
@@ -199,7 +211,7 @@
                           </a>
                       </li>
                   </ul>
-                 
+
               </li>
 
       </ul>
