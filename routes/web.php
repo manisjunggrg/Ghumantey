@@ -26,6 +26,9 @@ Route::get('/tour', function () {
 Route::get('/blog', function () {
     return view('vendor.blog-single');
 });
+Route::get('/hire', function () {
+    return view('vendor.hire');
+});
 Route::get('/contact', function () {
     return view('vendor.contact');
 });

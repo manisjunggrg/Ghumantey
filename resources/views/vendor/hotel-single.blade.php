@@ -182,7 +182,7 @@ Ghumantey | Hotel-Single
 				    						<p>Far far away, behind the word mountains, far from the countries</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+				    							<span><i class="icon-map-o"></i> Miami, Fl</span>
 				    							<span class="ml-auto"><a href="#">Book Now</a></span>
 				    						</p>
 				    					</div>
@@ -211,7 +211,7 @@ Ghumantey | Hotel-Single
 				    						<p>Far far away, behind the word mountains, far from the countries</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+				    							<span><i class="icon-map-o"></i> Miami, Fl</span>
 				    							<span class="ml-auto"><a href="#">Book Now</a></span>
 				    						</p>
 				    					</div>
@@ -240,7 +240,7 @@ Ghumantey | Hotel-Single
 				    						<p>Far far away, behind the word mountains, far from the countries</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+				    							<span><i class="icon-map-o"></i> Miami, Fl</span>
 				    							<span class="ml-auto"><a href="#">Book Now</a></span>
 				    						</p>
 				    					</div>
@@ -373,7 +373,7 @@ Ghumantey | Hotel-Single
 				    						<p>Far far away, behind the word mountains, far from the countries</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+				    							<span><i class="icon-map-o"></i> Miami, Fl</span>
 				    							<span class="ml-auto"><a href="#">Book Now</a></span>
 				    						</p>
 				    					</div>
@@ -402,7 +402,7 @@ Ghumantey | Hotel-Single
 				    						<p>Far far away, behind the word mountains, far from the countries</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+				    							<span><i class="icon-map-o"></i> Miami, Fl</span>
 				    							<span class="ml-auto"><a href="#">Book Now</a></span>
 				    						</p>
 				    					</div>
@@ -431,7 +431,7 @@ Ghumantey | Hotel-Single
 				    						<p>Far far away, behind the word mountains, far from the countries</p>
 				    						<hr>
 				    						<p class="bottom-area d-flex">
-				    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+				    							<span><i class="icon-map-o"></i> Miami, Fl</span>
 				    							<span class="ml-auto"><a href="#">Book Now</a></span>
 				    						</p>
 				    					</div>

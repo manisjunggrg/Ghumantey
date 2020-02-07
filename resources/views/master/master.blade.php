@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/logo.jpg">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
 
@@ -41,7 +43,7 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="guide" class="nav-link">Guide</a></li>
-            <li class="nav-item"><a href="hire" class="nav-link">BikeRide</a></li>
+            <li class="nav-item"><a href="hire" class="nav-link">BikeRent</a></li>
             <li class="nav-item"><a href="about" class="nav-link">About</a></li>
           <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
           <li class="nav-item cta"><a href="customize_packages" class="nav-link"><span>Customize Adventure</span></a></li>
@@ -105,7 +107,7 @@
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">Kathford International College of Engineering and Management</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+977 9868284426</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">ghumantey@gmail.com</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">ghumanteygmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
