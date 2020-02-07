@@ -52,6 +52,7 @@
     <!-- END nav -->
 
     <main >
+
             @yield('content')
         </main>
 

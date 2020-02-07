@@ -27,38 +27,59 @@ Ghumantey | Contact
           </div>
           <div class="w-100"></div>
           <div class="col-md-3">
-            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+            <p><span>Address:</span> Kathford International college </p>
           </div>
           <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+            <p><span>Phone:</span> <a href="tel://1234567920">+977 9868284426</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+            <p><span>Email:</span> <a href="mailto:info@yoursite.com">74-ko-basanta@gmail.com</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            <p><span>Website</span> <a href="#">ghumantey.com</a></p>
           </div>
         </div>
         <div class="row block-9">
           <div class="col-md-6 pr-md-5">
-            <form action="#">
+
+                  <div class="content-wrapper">
+                      <div class="container">
+                          @if (session()->has('error'))
+                              <div class="alert alert-danger">
+                                  {!! session()->get('error') !!}
+
+                              </div>
+                          @endif
+                          @if (session()->has('success'))
+                              <div class="alert alert-success">
+                                  {!! session()->get('success') !!}
+
+                              </div>
+                          @endif
+
+                      </div>
+
+
+            <form action="{{route('message.store')}}" method="post">
+                <input type="hidden" method="post">
+                @csrf
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="text" class="form-control" name="email" placeholder="Your Email" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" id="message" cols="30" rows="7"  class="form-control" placeholder="Message" required></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
               </div>
             </form>
-          
+
           </div>
 
           <div class="col-md-6">
@@ -67,5 +88,5 @@ Ghumantey | Contact
         </div>
       </div>
     </section>
-    
+
     @endsection
