@@ -22,21 +22,21 @@ Ghumantey
                     <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                     <select name="" id="" class="form-control" placeholder="Keyword search">
                       <option value="" selected>Where</option>
-                      <option value="">Jhapa</option>
-                      <option value="">Berlin Germany</option>
-                      <option value="">Lodon United Kingdom</option>
-                      <option value="">Paris Italy</option>
+                      <option value="">Kathmandu</option>
+                      <option value="">Mustang</option>
+                      <option value="">Lukla</option>
+                      <option value="">Chitwan</option>
                     </select>
                   </div>
                 </div>
-                <input type="submit" class="search-submit btn btn-primary" value="Search">  
+                <input type="submit" class="search-submit btn btn-primary" value="Search">
               </form>
             </div>
             <!-- <p>Or browse the highlights</p>
             <p class="browse d-md-flex">
             	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-fork"></i>Restaurant</a></span>
-            	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-hotel"></i>Hotel</a></span> 
-            	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-meeting-point"></i>Places</a></span> 
+            	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-hotel"></i>Hotel</a></span>
+            	<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-meeting-point"></i>Places</a></span>
             	<span class="d-flex justify-content-md-center align-items-md-	center"><a href="#"><i class="flaticon-shopping-bag"></i>Shopping</a></span>
             </p> -->
           </div>
@@ -54,7 +54,7 @@ Ghumantey
                 <h3 class="heading mb-3">Best Price Guarantee</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
@@ -63,7 +63,7 @@ Ghumantey
                 <h3 class="heading mb-3">Travellers Love Us</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
-            </div>    
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
@@ -72,7 +72,7 @@ Ghumantey
                 <h3 class="heading mb-3">Best Travel Agent</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-block text-center">
@@ -81,12 +81,12 @@ Ghumantey
                 <h3 class="heading mb-3">Our Dedicated Support</h3>
                 <p>A small river named Duden flows by their place and supplies.</p>
               </div>
-            </div>      
+            </div>
           </div>
         </div>
       </div>
     </section>
-    
+
     <section class="ftco-section ftco-destination">
     	<div class="container">
     		<div class="row justify-content-start mb-5 pb-3">
@@ -106,7 +106,7 @@ Ghumantey
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
-		    						<h3><a href="#">Paris, Italy</a></h3>
+		    						<h3><a href="#">Sampang,Bhojpur</a></h3>
 		    						<span class="listing">15 Listing</span>
 		    					</div>
 		    				</div>
@@ -119,7 +119,7 @@ Ghumantey
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
-		    						<h3><a href="#">San Francisco, USA</a></h3>
+		    						<h3><a href="#">Chitwan</a></h3>
 		    						<span class="listing">20 Listing</span>
 		    					</div>
 		    				</div>
@@ -132,7 +132,7 @@ Ghumantey
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
-		    						<h3><a href="#">Lodon, UK</a></h3>
+		    						<h3><a href="#">Bhaktapur</a></h3>
 		    						<span class="listing">10 Listing</span>
 		    					</div>
 		    				</div>
@@ -145,7 +145,7 @@ Ghumantey
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
-		    						<h3><a href="#">Lion, Singapore</a></h3>
+		    						<h3><a href="#">Everest Base Camp</a></h3>
 		    						<span class="listing">3 Listing</span>
 		    					</div>
 		    				</div>
@@ -158,7 +158,7 @@ Ghumantey
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
-		    						<h3><a href="#">Australia</a></h3>
+		    						<h3><a href="#">Dolakha</a></h3>
 		    						<span class="listing">3 Listing</span>
 		    					</div>
 		    				</div>
@@ -171,7 +171,7 @@ Ghumantey
 		    						</div>
 		    					</a>
 		    					<div class="text p-3">
-		    						<h3><a href="#">Paris, Italy</a></h3>
+		    						<h3><a href="#">Janakpur Dham</a></h3>
 		    						<span class="listing">3 Listing</span>
 		    					</div>
 		    				</div>
@@ -189,7 +189,7 @@ Ghumantey
           	<span class="subheading">Special Offers</span>
             <h2 class="mb-4"><strong>Top</strong> Tour Packages</h2>
           </div>
-        </div>    		
+        </div>
     	</div>
     	<div class="container-fluid">
     		<div class="row">
@@ -221,7 +221,7 @@ Ghumantey
     						<p class="days"><span>2 days 3 nights</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -255,7 +255,7 @@ Ghumantey
     						<p class="days"><span>2 days 3 nights</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -289,7 +289,7 @@ Ghumantey
     						<p class="days"><span>2 days 3 nights</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -323,7 +323,7 @@ Ghumantey
     						<p class="days"><span>2 days 3 nights</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -357,7 +357,7 @@ Ghumantey
     						<p class="days"><span>2 days 3 nights</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -424,7 +424,7 @@ Ghumantey
           	<span class="subheading">Special Offers</span>
             <h2 class="mb-4"><strong>Popular</strong> Hotels &amp; Rooms</h2>
           </div>
-        </div>    		
+        </div>
     	</div>
     	<div class="container-fluid">
     		<div class="row">
@@ -455,7 +455,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+    							<span><i class="icon-map-o"></i> Miami, Fl</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -488,7 +488,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+    							<span><i class="icon-map-o"></i> Miami, Fl</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -521,7 +521,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+    							<span><i class="icon-map-o"></i> Miami, Fl</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -554,7 +554,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+    							<span><i class="icon-map-o"></i> Miami, Fl</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -587,7 +587,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
+    							<span><i class="icon-map-o"></i> Miami, Fl</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -671,7 +671,7 @@ Ghumantey
           	<span class="subheading">Special Offers</span>
             <h2 class="mb-4"><strong>Popular</strong> Restaurants</h2>
           </div>
-        </div>    		
+        </div>
     		<div class="row">
     			<div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="destination">
@@ -693,7 +693,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -719,7 +719,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -745,7 +745,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -771,7 +771,7 @@ Ghumantey
     						<p>Far far away, behind the word mountains, far from the countries</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> San Franciso, CA</span>
     							<span class="ml-auto"><a href="#">Book Now</a></span>
     						</p>
     					</div>
@@ -853,5 +853,5 @@ Ghumantey
         </div>
       </div>
     </section>
-		
+
 @endsection
