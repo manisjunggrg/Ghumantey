@@ -14,7 +14,7 @@ class MessageController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -35,7 +35,17 @@ class MessageController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $message = Message::create([
+            'message'=>$request->input('message'),
+            'name'=>$request->input('name'),
+            'subject'=>$request->input('subject'),
+            'email'=>$request->input('email'),
+        ]);
+        if($message){
+            return redirect()->back()->with('success','Your message has been send to Admin');
+        }else{
+            return redirect()->back()->with('error','Your message has not been send to Admin');
+        }
     }
 
     /**

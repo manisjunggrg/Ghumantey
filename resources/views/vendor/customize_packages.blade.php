@@ -46,7 +46,7 @@
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="Country" class="col-md-4 col-form-label text-md-right">{{ __('Country') }}</label>
+                                    <label for="Country" class="col-md-4 col-form-label text-md-right">{{ __('places') }}</label>
 
                                     <div class="col-md-6">
                                         <input id="Country" type="text" class="form-control @error('Country') is-invalid @enderror" name="Country" value="{{ old('Country') }}" required autocomplete="Country">
