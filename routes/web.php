@@ -35,11 +35,19 @@ Route::get('/index', function () {
 Route::get('/useradmin', function () {
     return view('admin.index');
 });
+Route::get('/place', function () {
+    return view('vendor.place');
+});
 
+Route::get('/detail_package', function () {
+    return view('vendor.detail_package');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/getCity', 'ClientController@getCity')->name('city');
+Route::resources([
+    'guide'=>'GuideController',
+]
+);
