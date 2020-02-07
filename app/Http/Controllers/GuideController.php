@@ -13,8 +13,17 @@ class GuideController extends Controller
      */
     public function index()
     {
+
         $guide = Guide::get();
         return view('vendor.guide',compact('guide'));
+    }
+    public function find(Request $request)
+    {
+
+        $msg = Guide::where('location','LIKE','%'.$request->location.'%' )->get();
+
+        return view('tourist.guide',compact('msg'));
+
     }
 
     /**

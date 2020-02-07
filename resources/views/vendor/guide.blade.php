@@ -2,7 +2,7 @@
 
 @section('title')
 
-    Ghumantey | Hotel
+    Ghumantey | Guide
 
 @endsection
 
@@ -26,24 +26,26 @@
             <div class="row">
                 <div class="col-lg-3 sidebar">
                     <div class="sidebar-wrap bg-light ftco-animate">
-                        <h3 class="heading mb-4">Find Appropriate Guide</h3>
-                        <form action="#">
+                        <h3 class="heading mb-4">Please fill your details</h3>
+                        <form action="getguide" method="post">
+                            @csrf
                             <div class="fields">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Destination, City">
+                                    <input type="text" name="location" class="form-control" placeholder="Destination">
                                 </div>
                                 <div class="form-group">
-                                    <div class="select-wrap one-third">
-                                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                        <select name="" id="" class="form-control" placeholder="Keyword search">
-                                            <option value="">Select Location</option>
-                                            <option value="">Pokhara</option>
-                                            <option value="">Bhaktapur</option>
-                                            <option value="">Chitwan</option>
-                                            <option value="">Lalitpur</option>
-                                        </select>
-                                    </div>
+                                        <div class="form-group">
+                                            <input type="text" name="language" id="language" class="form-control" placeholder="Language">
+                                        </div>
                                 </div>
+                                        <div class="form-group">
+                                            <select name="pattern" id="pattern" class="form-control">
+                                                <option value="" selected>How you travel</option>
+                                                <option value="solo">Solo</option>
+                                                <option value="team">Team</option>
+                                            </select>
+                                        </div>
+
                                 <div class="form-group">
                                     <input type="text" id="checkin_date" class="form-control" placeholder="Date from">
                                 </div>
@@ -52,46 +54,13 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="submit" value="Search" class="btn btn-primary py-3 px-5">
+                                    <input type="submit" value="Search" onclick="submit()" class="btn btn-primary py-3 px-5">
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div class="sidebar-wrap bg-light ftco-animate">
-                        <h3 class="heading mb-4">Star Rating</h3>
-                        <form method="post" class="star-rating">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">
-                                    <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></p>
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">
-                                    <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i></span></p>
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">
-                                    <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">
-                                    <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">
-                                    <p class="rate"><span><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-                                </label>
-                            </div>
-                        </form>
-                    </div>
+
+
                 </div>
                 <div class="col-lg-9">
                     <div class="row">
@@ -303,3 +272,21 @@
     </section> <!-- .section -->
 
 @endsection
+<script>
+
+    function submit() {
+        $.ajax({
+            type: 'post',
+            url: '/getguide',
+            success: function (data) {
+                console.log(data);
+            }
+
+        });
+    }
+
+
+
+
+
+</script>

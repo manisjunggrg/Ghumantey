@@ -32,9 +32,7 @@ Route::get('/contact', function () {
 Route::get('/index', function () {
     return view('vendor.index');
 });
-Route::get('/useradmin', function () {
-    return view('admin.index');
-});
+
 Route::get('/place', function () {
     return view('vendor.place');
 });
@@ -56,8 +54,10 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('users','UserController');
     Route::resource('products','ProductController');
     Route::resource('message','MessageController');
+    Route::resource('tourist','TouristController');
 });
-Route::get('/getCity', 'ClientController@getCity')->name('city');
+Route::Post('/getguide', 'GuideController@find');
+Route::get('/useradmin', 'ClientController@message');
 Route::resources([
     'guide'=>'GuideController',
         'client'=>'ClientController'
