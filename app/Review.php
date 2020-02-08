@@ -8,6 +8,6 @@ class Review extends Model
 {
     protected $table = 'review';
     protected $fillable =[
-       'name','email','title','review'
+       'name','email','title','review','rating'
     ];
 }
