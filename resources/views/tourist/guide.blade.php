@@ -19,6 +19,23 @@
     </div>
      <div class="container" style="margin-top: 50px;margin-bottom: 200px">
          <table class="table table-dark" style="border: 1px solid black;border-radius: 5px">
+             <div class="content-wrapper">
+                 <div class="container">
+                     @if (session()->has('error'))
+                         <div class="alert alert-danger">
+                             {!! session()->get('error') !!}
+
+                         </div>
+                     @endif
+                     @if (session()->has('success'))
+                         <div class="alert alert-success">
+                             {!! session()->get('success') !!}
+
+                         </div>
+                     @endif
+
+                 </div>
+             </div>
              <tr >
                 <th>SN</th>
                 <th>Name</th>
@@ -30,10 +47,15 @@
                  <td>1</td>
                  <td>{{$m->name}}</td>
                  <td>{{$m->location}}</td>
-                 <td><a>hire</a></td>
+                 <td><a href="/" onclick="post()">Hire</a> </td>
              </tr>
                  @endforeach
          </table>
      </div>
 
+    <script>
+        function post() {
+                alert("submitted successfully");
+        }
+    </script>
     @endsection
