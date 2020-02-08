@@ -40,6 +40,7 @@ class ReviewController extends Controller
            'email'=>$request->input('email'),
            'title'=>$request->input('title'),
            'review'=>$request->input('review'),
+           'rating'=>$request->input('rating'),
        ]);
        if($review){
            return  redirect()->back()->with('success','Success to give review');
