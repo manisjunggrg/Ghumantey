@@ -67,7 +67,7 @@
                     <div class="row">
                         <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/person_1.jpg);">
+                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/sep.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
@@ -98,7 +98,7 @@
                         </div>
                         <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/person_2.jpg);">
+                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/parash.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
@@ -129,7 +129,7 @@
                         </div>
                         <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/person_3.jpg);">
+                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hem.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
@@ -160,7 +160,7 @@
                         </div>
                         <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/image_6.jpg);">
+                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/sri.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
@@ -168,7 +168,7 @@
                                 <div class="text p-3">
                                     <div class="d-flex">
                                         <div class="one">
-                                            <h3><a href="#">Reshma Chhetri</a></h3>
+                                            <h3><a href="#">Shrinkhala Khatiwada</a></h3>
                                             <p class="rate">
                                                 <i class="icon-star"></i>
                                                 <i class="icon-star"></i>
@@ -191,7 +191,7 @@
                         </div>
                         <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/image_4.jpg);">
+                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/niti.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
@@ -222,7 +222,7 @@
                         </div>
                         <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/image_3.jpg);">
+                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/deepak.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
