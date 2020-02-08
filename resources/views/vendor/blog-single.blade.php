@@ -7,7 +7,7 @@ Ghumantey | Blog-single
 @endsection
 
 @section('content')
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_4.jpg');">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/g8.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -47,7 +47,7 @@ Ghumantey | Blog-single
                 <a href="#" class="tag-cloud-link">Travel</a>
               </div>
             </div>
-            
+
             <div class="about-author d-flex p-5 bg-light">
               <div class="bio align-self-md-center mr-5">
                 <img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid mb-4">
@@ -142,7 +142,7 @@ Ghumantey | Blog-single
                 </li>
               </ul>
               <!-- END comment-list -->
-              
+
               <div class="comment-form-wrap pt-5">
                 <h3 class="mb-5">Leave a comment</h3>
                 <form action="#" class="p-5 bg-light">
@@ -253,5 +253,5 @@ Ghumantey | Blog-single
         </div>
       </div>
     </section> <!-- .section -->
-    
+
     @endsection
