@@ -45,9 +45,9 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item @php if(url()->current() == url('index') || url()->current() == url('/')) echo "active";  @endphp"><a href="index" class="nav-link">Home</a></li>
-          <li class="nav-item @php if(url()->current() == url('event') )echo "active";  @endphp"><a href="event" class="nav-link">Event</a></li>
           <li class="nav-item @php if(url()->current() == url('guide') ) echo "active";  @endphp"><a href="guide" class="nav-link">Guide</a></li>
             <li class="nav-item @php if(url()->current() == url('hire') ) echo "active";  @endphp"><a href="hire" class="nav-link">BikeRent</a></li>
+            <li class="nav-item @php if(url()->current() == url('event') )echo "active";  @endphp"><a href="event" class="nav-link">Event</a></li>
           <li class="nav-item @php if(url()->current() == url('contact') ) echo "active";  @endphp"><a href="contact" class="nav-link">Contact</a></li>
           <li class="nav-item @php if(url()->current() == url('review') ) echo "active";  @endphp"><a href="review" class="nav-link">Review</a></li>
           <li class="nav-item cta"><a href="customize_packages" class="nav-link"><span>Customize packages</span></a></li>
