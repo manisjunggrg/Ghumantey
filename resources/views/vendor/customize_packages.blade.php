@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-lg-3 sidebar">
                     <div class="card">
-                        <div class="card-header">{{ __('Fill up the form for Custome packages') }}</div>
+                        <div class="card-header">{{ __('Fill up the form for Custom packages') }}</div>
 
                         <div class="card-body">
                             <form method="POST" action="{{ route('client.store') }}">
@@ -105,31 +105,80 @@
                 <div class="col-lg-9">
                     <div class="row">
                         <div class="col-md-4 ftco-animate">
+                            <div class="item">
+                                <div class="destination">
+                                    <a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/ilam.jpg);">
+                                        <div class="icon d-flex justify-content-center align-items-center">
+                                            <span class="icon-search2"></span>
+                                        </div>
+                                    </a>
+                                    <div class="text p-3">
+                                        <h3><a href="#">Ilam</a></h3>
+                                        <span class="listing">10 Listing</span>
+                                        <hr>
+                                        <p class="bottom-area d-flex">
+                                            <span class="ml-auto"><a href="#">Book Now</a></span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ftco-animate">
+                            <div class="item">
+                                <div class="destination">
+                                    <a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g4.jpg);">
+                                        <div class="icon d-flex justify-content-center align-items-center">
+                                            <span class="icon-search2"></span>
+                                        </div>
+                                    </a>
+                                    <div class="text p-3">
+
+                                        <h3><a href="#">Everest Base Camp</a></h3>
+                                        <span class="listing">3 Listing</span>
+                                        <hr>
+                                        <p class="bottom-area d-flex">
+                                            <span class="ml-auto"><a href="#">Book Now</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ftco-animate">
+                            <div class="item">
+                                <div class="destination">
+                                    <a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g5.jpg);">
+                                        <div class="icon d-flex justify-content-center align-items-center">
+                                            <span class="icon-search2"></span>
+                                        </div>
+                                    </a>
+                                    <div class="text p-3">
+
+                                        <h3><a href="#">Dolakha</a></h3>
+
+                                        <span class="listing">3 Listing</span>
+                                        <hr>
+                                        <p class="bottom-area d-flex">
+                                            <span class="ml-auto"><a href="#">Book Now</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/person_1.jpg);">
+                                <a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g3.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <div class="d-flex">
-                                        <div class="one">
-                                            <h3><a href="#">Suman Khatri</a></h3>
-                                            <p class="rate">
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star-o"></i>
-                                                <span>8 Rating</span>
-                                            </p>
-                                        </div>
 
-                                    </div>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
+                                    <h3><a href="#">Bhaktapur</a></h3>
+
+                                    <span class="listing">10 Listing</span>
                                     <hr>
                                     <p class="bottom-area d-flex">
-
                                         <span class="ml-auto"><a href="#">Book Now</a></span>
                                     </p>
                                 </div>
@@ -137,30 +186,17 @@
                         </div>
                         <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/person_2.jpg);">
+                                <a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/g6.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <div class="d-flex">
-                                        <div class="one">
-                                            <h3><a href="#">Ramesh Pandey</a></h3>
-                                            <p class="rate">
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star-o"></i>
-                                                <span>8 Rating</span>
-                                            </p>
-                                        </div>
 
-                                    </div>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
+                                    <h3><a href="#">Janakpur Dham</a></h3>
+                                    <span class="listing">3 Listing</span>
                                     <hr>
                                     <p class="bottom-area d-flex">
-
                                         <span class="ml-auto"><a href="#">Book Now</a></span>
                                     </p>
                                 </div>
@@ -168,123 +204,17 @@
                         </div>
                         <div class="col-md-4 ftco-animate">
                             <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/person_3.jpg);">
+                                <a href="/place" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/makalu.jpg);">
                                     <div class="icon d-flex justify-content-center align-items-center">
                                         <span class="icon-search2"></span>
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <div class="d-flex">
-                                        <div class="one">
-                                            <h3><a href="#">Hem Kumar Rai</a></h3>
-                                            <p class="rate">
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star-o"></i>
-                                                <span>8 Rating</span>
-                                            </p>
-                                        </div>
 
-                                    </div>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
+                                    <h3><a href="#">Makalu Barun NP</a></h3>
+                                    <span class="listing">6 Listing</span>
                                     <hr>
                                     <p class="bottom-area d-flex">
-
-                                        <span class="ml-auto"><a href="#">Book Now</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 ftco-animate">
-                            <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/image_6.jpg);">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="icon-search2"></span>
-                                    </div>
-                                </a>
-                                <div class="text p-3">
-                                    <div class="d-flex">
-                                        <div class="one">
-                                            <h3><a href="#">Reshma Chhetri</a></h3>
-                                            <p class="rate">
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star-o"></i>
-                                                <span>8 Rating</span>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
-                                    <hr>
-                                    <p class="bottom-area d-flex">
-
-                                        <span class="ml-auto"><a href="#">Book Now</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 ftco-animate">
-                            <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/image_4.jpg);">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="icon-search2"></span>
-                                    </div>
-                                </a>
-                                <div class="text p-3">
-                                    <div class="d-flex">
-                                        <div class="one">
-                                            <h3><a href="#">Roshani</a></h3>
-                                            <p class="rate">
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star-o"></i>
-                                                <span>8 Rating</span>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
-                                    <hr>
-                                    <p class="bottom-area d-flex">
-
-                                        <span class="ml-auto"><a href="#">Book Now</a></span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 ftco-animate">
-                            <div class="destination">
-                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/image_3.jpg);">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="icon-search2"></span>
-                                    </div>
-                                </a>
-                                <div class="text p-3">
-                                    <div class="d-flex">
-                                        <div class="one">
-                                            <h3><a href="#">Laxman</a></h3>
-                                            <p class="rate">
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star"></i>
-                                                <i class="icon-star-o"></i>
-                                                <span>8 Rating</span>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                    <p>Far far away, behind the word mountains, far from the countries</p>
-                                    <hr>
-                                    <p class="bottom-area d-flex">
-
                                         <span class="ml-auto"><a href="#">Book Now</a></span>
                                     </p>
                                 </div>
