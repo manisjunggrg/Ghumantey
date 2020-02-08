@@ -2,7 +2,7 @@
 
 @section('title')
 
-    Ghumantey | Hotel
+    Ghumantey | Customized_packages
 
 @endsection
 
