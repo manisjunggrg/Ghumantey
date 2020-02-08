@@ -1,6 +1,6 @@
 
 
-@extends('layouts.app')
+@extends('master.review')
 
 @section('content')
        <div class="container">
@@ -46,12 +46,14 @@
                           <option value="5">5</option>
                       </select>
                       <br>
-                      <input type="submit" class="btn btn-primary" value="Review">
+                      <input type="submit" class="btn btn-success" value="Submit Review">
+
                   </form>
+                  <br>
+                  <a href="/" class="btn btn-primary">Return to Home</a>
               </div>
             </div>
-
-@endsection
        </div>
 
+@endsection
 
