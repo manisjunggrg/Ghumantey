@@ -17,6 +17,45 @@ Ghumantey | Place
         </div>
     </div>
 
+    <div class="container" style="margin-top: 10px">
+        <span class="subheading"><h4><strong>Pokhara</strong></h4></span>
+        <i>“Pokhara is confluence of Nature of North and Culture of South - Stunning high Mountains and Smile of peoples on everyday festivals.”</i>
+        <p><b>
+            If you plan to visit Nepal your tour’s starting point in Kathmandu as every International flight lands at Kathmandu. From there you take domestic flights to visit your preferred destination. If you plan to visit Pokhara first take a domestic flight from Tribhuvan International Airport, Kathmandu. It takes 25 minutes to reach Pokhara on the flight.
+
+            Once you reach Pokhara, there are enough of hotels and lodges ranging from cheaper lodges to the five-star hotels. While at Pokhara, you will get enough activities to perform in the city area. And plan to go on hikes, treks from the place then there is well-developed infrastructures for your ease. Strolling around Pokhara is much fun and easy at the same time. As it is one of the biggest tourist hubs in Nepal. Our Pokhara Travel guide helps you to have detail information about the valley and the places around.
+                Also, we provide you the information about different treks in Annapurna region of which the starting point is Pokhara.
+            </b>
+        </p>
+        <p>
+            <h5>Details Itinerary</h5>
+        <p><b>
+                DAY 01 (KATHMANDU/ POKHARA)<br>
+                - Drive to Pokhara (approx 5hrs/200kms)<br>
+                - One hour boat ride including the visit of Barahi Temple<br>
+                - Overnight at the hotel<br>
+
+                DAY 02 ( IN POKHARA)<br>
+                - Excursion tour of Sarangkot for Sunrise View for sunrise view over the Western Himalayas Of Pokhara<br>
+                - Breakfast at Hotel<br>
+                - Half day tour of Pokhara Valley<br>
+                - Overnight at Hotel<br>
+
+                DAY 03 ( POKHARA/KATHMANDU BY ROAD)<br>
+                - Breakfast at Hotel<br>
+                - Drive back to Kathmandu<br>
+                - Breakfast at the hotel<br>
+                - Transfer to Pokhara Domestic airport for flight back to Kathmandu<br>
+                - Depart Pokhara for Kathmandu (by road)<br>
+            </b>
+        </p>
+        <h5>Best time to vist Pokhara</h5>
+        <p><b>
+                The best time to visit Pokhara is from September to November and the again early May. It does tend to get very cold in December and January and it rains very heavily from May till August, so these months should be avoided.
+            </b>
+        </p>
+    </div>
+
 
     <section class="ftco-section ftco-destination">
         <div class="container">

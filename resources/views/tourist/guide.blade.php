@@ -17,9 +17,9 @@
             </div>
         </div>
     </div>
-     <div class="container">
-         <table class="table table-hover">
-             <tr>
+     <div class="container" style="margin-top: 50px;margin-bottom: 200px">
+         <table class="table table-dark" style="border: 1px solid black;border-radius: 5px">
+             <tr >
                 <th>SN</th>
                 <th>Name</th>
                 <th>Language</th>
@@ -29,9 +29,8 @@
              <tr>
                  <td>1</td>
                  <td>{{$m->name}}</td>
-                 <td>{{$m->language}}</td>
-                 <td>    <i class="fas fa-thumbs-up"></i> </td>
-
+                 <td>{{$m->location}}</td>
+                 <td><a>hire</a></td>
              </tr>
                  @endforeach
          </table>
