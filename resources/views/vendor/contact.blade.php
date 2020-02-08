@@ -45,15 +45,14 @@ Ghumantey | Contact
                                 <div class="tab-pane fade" id="v-pills-whatwedo" role="tabpanel" aria-labelledby="v-pills-whatwedo-tab">
                                     <div>
                                         <h2 class="mb-4">We are the Ghumanteys!</h2>
-                                        <p>Lorem</p>
+                                        <p>We travel and assit people in travelling around the world.</p>
                                     </div>
                                 </div>
 
                                 <div class="tab-pane fade" id="v-pills-goal" role="tabpanel" aria-labelledby="v-pills-goal-tab">
                                     <div>
-                                        <h2 class="mb-4">Help Our Customer</h2>
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+                                        <h2 class="mb-4">Best Packages</h2>
+                                        <p>The main goal of our project is to focus on cheaper and more convenient travel packages around every nooks and corners of Nepal.</p>
                                     </div>
                                 </div>
                             </div>
