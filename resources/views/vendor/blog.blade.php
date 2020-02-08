@@ -28,9 +28,9 @@ Ghumantey | Blog
               </a>
               <div class="text p-4 d-block">
               	<span class="tag">Tips, Travel</span>
-                <h3 class="heading mt-3"><a href="#">8 Best homestay in Philippines that you don't miss out</a></h3>
+                <h3 class="heading mt-3"><a href="#">Mustang Trail Race</a></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">August 12, 2020</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
@@ -43,9 +43,9 @@ Ghumantey | Blog
               </a>
               <div class="text p-4">
               	<span class="tag">Culture</span>
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                <h3 class="heading mt-3"><a href="#">Nepal Tattoo Convention</a></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">April 12, 2020</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
@@ -58,9 +58,9 @@ Ghumantey | Blog
               </a>
               <div class="text p-4">
               	<span class="tag">Tips, Travel</span>
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                <h3 class="heading mt-3"><a href="#">Otaku Jatra</a></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">August 12, 2020</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
@@ -73,9 +73,9 @@ Ghumantey | Blog
               </a>
               <div class="text p-4">
               	<span class="tag">Tips, Travel</span>
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                <h3 class="heading mt-3"><a href="#">Himalayan Travel Mart (HTM)</a></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">August 12, 2020</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
@@ -90,7 +90,7 @@ Ghumantey | Blog
               	<span class="tag">Tips, Travel</span>
                 <h3 class="heading mt-3"><a href="#">8 Best homestay in Philippines that you don't miss out</a></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">August 12, 2020</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
@@ -105,7 +105,7 @@ Ghumantey | Blog
               	<span class="tag">Culture</span>
                 <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">August 12, 2020</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
@@ -120,7 +120,7 @@ Ghumantey | Blog
               	<span class="tag">Tips, Travel</span>
                 <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">August 12, 2020</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
@@ -135,7 +135,7 @@ Ghumantey | Blog
               	<span class="tag">Tips, Travel</span>
                 <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">August 12, 2020</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
