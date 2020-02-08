@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Message;
+use App\Review;
 use Illuminate\Http\Request;
 
-class MessageController extends Controller
+class ReviewController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class MessageController extends Controller
      */
     public function index()
     {
-
+       return view('review.index');
     }
 
     /**
@@ -35,27 +35,24 @@ class MessageController extends Controller
      */
     public function store(Request $request)
     {
-
-        $message = Message::create([
-            'message'=>$request->input('message'),
-            'name'=>$request->input('name'),
-            'subject'=>$request->input('subject'),
-            'email'=>$request->input('email'),
-        ]);
-        if($message){
-            return redirect()->back()->with('success','Your message has been send to Admin');
-        }else{
-            return redirect()->back()->with('error','Your message has not been send to Admin');
-        }
+       $review = Review::create([
+           'name'=>$request->input('name'),
+           'email'=>$request->input('email'),
+           'title'=>$request->input('title'),
+           'review'=>$request->input('review'),
+       ]);
+       if($review){
+           return  redirect()->back()->with('success','Success to give review');
+       }
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Message  $message
+     * @param  \App\Review  $review
      * @return \Illuminate\Http\Response
      */
-    public function show(Message $message)
+    public function show(Review $review)
     {
         //
     }
@@ -63,10 +60,10 @@ class MessageController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Message  $message
+     * @param  \App\Review  $review
      * @return \Illuminate\Http\Response
      */
-    public function edit(Message $message)
+    public function edit(Review $review)
     {
         //
     }
@@ -75,10 +72,10 @@ class MessageController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Message  $message
+     * @param  \App\Review  $review
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Message $message)
+    public function update(Request $request, Review $review)
     {
         //
     }
@@ -86,10 +83,10 @@ class MessageController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Message  $message
+     * @param  \App\Review  $review
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Message $message)
+    public function destroy(Review $review)
     {
         //
     }

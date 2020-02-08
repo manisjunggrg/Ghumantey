@@ -54,6 +54,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
 //for roles and permission
 Route::group(['middleware' => ['auth']], function() {
     Route::resource('roles','RoleController');
@@ -61,6 +62,7 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('products','ProductController');
     Route::resource('message','MessageController');
     Route::resource('tourist','TouristController');
+    Route::resource('review','ReviewController');
 });
 Route::Post('/getguide', 'GuideController@find');
 Route::get('/useradmin', 'ClientController@message');

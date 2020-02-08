@@ -60,10 +60,10 @@
                             </div>
                             <div class="form-group">
                                 <label>Mode</label>
-                                <select class="form-control" name="people" id="people">
+                                <select class="form-control" name="subject" id="subject">
                                     <option value="" selected>---select any mode---</option>
-                                    <option value="bsc.csit">Solo</option>
-                                    <option value="bba">Guide</option>
+                                    <option value="solo">Solo</option>
+                                    <option value="guide">Guide</option>
                                 </select>
                             </div>
                             <div class="form-group" style="height: 500px;">

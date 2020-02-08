@@ -56,6 +56,9 @@
                                 </div>
                             </div>
                         </form>
+                        <a class="btn btn-dark" href="{{ route('register') }}">{{ __('Apply as a Guide') }}</a>
+
+
                     </div>
 
 

@@ -56,7 +56,7 @@ Ghumantey | Place
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <h3><a href="#">Bhaktapur</a></h3>
+                                    <h3><a href="#">Talbarahi Temple</a></h3>
                                     <span class="listing">10 Listing</span>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ Ghumantey | Place
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <h3><a href="#">Janakpur</a></h3>
+                                    <h3><a href="#">Begnas Lake</a></h3>
                                     <span class="listing">3 Listing</span>
                                 </div>
                             </div>

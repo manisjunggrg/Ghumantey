@@ -21,6 +21,7 @@ Ghumantey | Blog
 
     <section class="ftco-section bg-light">
       <div class="container">
+          <h2>Events in 2020</h2>
         <div class="row d-flex">
           <div class="col-md-3 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">

@@ -2,7 +2,7 @@
 
 
 @section('content')
-
+@can('Admin')
     <div class="container">
 
 @php $a = 1 @endphp
@@ -31,6 +31,6 @@
         </tr>
            @endforeach
     </table>
-
+@endcan
     </div>
     @endsection

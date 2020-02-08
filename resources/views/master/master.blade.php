@@ -28,8 +28,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/logo.jpg">
 {{--      gallery link start--}}
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
       <link rel="stylesheet" href="css/compact-gallery.css">
 {{--      gallery link end--}}
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -51,6 +49,7 @@
           <li class="nav-item @php if(url()->current() == url('guide') ) echo "active";  @endphp"><a href="guide" class="nav-link">Guide</a></li>
             <li class="nav-item @php if(url()->current() == url('hire') ) echo "active";  @endphp"><a href="hire" class="nav-link">BikeRent</a></li>
           <li class="nav-item @php if(url()->current() == url('contact') ) echo "active";  @endphp"><a href="contact" class="nav-link">Contact</a></li>
+          <li class="nav-item @php if(url()->current() == url('review') ) echo "active";  @endphp"><a href="review" class="nav-link">Review</a></li>
           <li class="nav-item cta"><a href="customize_packages" class="nav-link"><span>Customize packages</span></a></li>
             @guest
                 <li class="nav-item">
