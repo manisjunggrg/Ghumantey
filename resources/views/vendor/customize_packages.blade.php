@@ -22,9 +22,9 @@
 
 
     <section class="ftco-section ftco-degree-bg">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3 sidebar">
+                <div class="col-lg-4 sidebar">
                     <div class="card">
                         <div class="card-header">{{ __('Fill up the form for Custom packages') }}</div>
 
@@ -61,7 +61,7 @@
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="Country" class="col-md-4 col-form-label text-md-right">{{ __('places') }}</label>
+                                    <label for="Country" class="col-md-4 col-form-label text-md-right">{{ __('Places') }}</label>
 
                                     <div class="col-md-6">
                                         <input id="Country" type="text" class="form-control @error('Country') is-invalid @enderror" name="Country" value="{{ old('Country') }}" required autocomplete="Country">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-8">
                     <div class="row">
                         <div class="col-md-4 ftco-animate">
                             <div class="item">
