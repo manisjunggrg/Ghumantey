@@ -95,8 +95,8 @@
                                                 3) The bike must be used only as a transport medium. The user must take care of the bike. All competitions and
                                                 dangerous handling are prohibited. The user must use the bike taking care of everything, including the bike
                                                 itself and its accessories.<br>
-                                                4) It is strictly prohibited to use the bike for any commercial activity and it is forbidden to give it to someone else.
-                                                5) The user must respect the rules of the road, rules that he declares he knows.
+                                                4) It is strictly prohibited to use the bike for any commercial activity and it is forbidden to give it to someone else.<br>
+                                                5) The user must respect the rules of the road, rules that he declares he knows.<br>
                                                 6) Use of the bike requires physical suitability and technical knowledge from the bike rider. The user states he
                                                 has the right ability and competence.<br>
                                                 7) Any event, injury or damage caused by the bike will be only responsibility of the bike user. He will therefore
