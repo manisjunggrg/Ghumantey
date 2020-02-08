@@ -7,16 +7,14 @@
 @endsection
 
 @section('content')
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/visit1.jpg');">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/visit2.jpg'); ">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
-                <div class="col-md-9 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+                <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                     <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Guide</h1>
-
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -270,23 +268,18 @@
             </div>
         </div>
     </section> <!-- .section -->
+    <script>
 
+        function submit() {
+            $.ajax({
+                type: 'post',
+                url: '/getguide',
+                success: function (data) {
+
+                }
+
+            });
+        }
+    </script>
 @endsection
-<script>
 
-    function submit() {
-        $.ajax({
-            type: 'post',
-            url: '/getguide',
-            success: function (data) {
-                console.log(data);
-            }
-
-        });
-    }
-
-
-
-
-
-</script>

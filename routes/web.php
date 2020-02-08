@@ -23,8 +23,8 @@ Route::get('/about', function () {
 Route::get('/tour', function () {
     return view('vendor.tour');
 });
-Route::get('/blog', function () {
-    return view('vendor.blog-single');
+Route::get('/event', function () {
+    return view('vendor.blog');
 });
 Route::get('/hire', function () {
     return view('vendor.hire');

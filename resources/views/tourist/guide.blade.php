@@ -7,7 +7,6 @@
     @endsection
 
 @section('content')
-
     <div class="hero-wrap js-fullheight" style="background-image: url('images/visit2.jpg');">
         <div class="overlay"></div>
         <div class="container">

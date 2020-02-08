@@ -15,7 +15,7 @@ Ghumantey | Place
         <div class="container">
             <div class="row justify-content-start mb-5 pb-3">
                 <div class="col-md-7 heading-section ftco-animate">
-                    <span class="subheading">offer</span>
+                    <span class="subheading">what can i do </span>
                     <h2 class="mb-4"><strong>More</strong> Packages</h2>
                 </div>
             </div>
@@ -30,7 +30,7 @@ Ghumantey | Place
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <h3><a href="#">Jeep Safari in Chitwan</a></h3>
+                                    <h3><a href="#">Paragliding</a></h3>
                                     <span class="listing">15 Listing</span>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ Ghumantey | Place
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <h3><a href="#">Janakpur</a></h3>
+                                    <h3><a href="#">Homestay</a></h3>
                                     <span class="listing">20 Listing</span>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ Ghumantey | Place
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <h3><a href="#">Khumbu</a></h3>
+                                    <h3><a href="#">Annapurna Trail</a></h3>
                                     <span class="listing">3 Listing</span>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ Ghumantey | Place
                                     </div>
                                 </a>
                                 <div class="text p-3">
-                                    <h3><a href="#">Chitwan National Park</a></h3>
+                                    <h3><a href="#">Fewa Lake</a></h3>
                                     <span class="listing">3 Listing</span>
                                 </div>
                             </div>
