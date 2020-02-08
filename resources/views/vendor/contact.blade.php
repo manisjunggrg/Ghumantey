@@ -18,7 +18,51 @@ Ghumantey | Contact
         </div>
       </div>
     </div>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row d-md-flex">
+                <div class="col-md-6 ftco-animate img about-image" style="background-image: url(images/bunjee.jpg);">
+                </div>
+                <div class="col-md-6 ftco-animate p-md-5">
+                    <div class="row">
+                        <div class="col-md-12 nav-link-wrap mb-5">
+                            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-mission" role="tab" aria-controls="v-pills-mission" aria-selected="false">Who we are?</a>
+                                <a class="nav-link" id="v-pills-whatwedo-tab" data-toggle="pill" href="#v-pills-whatwedo" role="tab" aria-controls="v-pills-whatwedo" aria-selected="true">What we do?</a>
+                                <a class="nav-link" id="v-pills-goal-tab" data-toggle="pill" href="#v-pills-goal" role="tab" aria-controls="v-pills-goal" aria-selected="false">Our goal</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 d-flex align-items-center">
 
+                            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-mission" role="tabpanel" aria-labelledby="v-pills-mission-tab">
+                                    <div>
+                                        <h2 class="mb-4">We are the Ghumanteys!</h2>
+                                        <p>First of all the word ghumantey is derived from a nepali word '' ghumantey which means traveller. We have a team of people who have the adrenaline boost when they even think about travelling. </p>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="v-pills-whatwedo" role="tabpanel" aria-labelledby="v-pills-whatwedo-tab">
+                                    <div>
+                                        <h2 class="mb-4">We are the Ghumanteys!</h2>
+                                        <p>Lorem</p>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="v-pills-goal" role="tabpanel" aria-labelledby="v-pills-goal-tab">
+                                    <div>
+                                        <h2 class="mb-4">Help Our Customer</h2>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 		<section class="ftco-section contact-section ftco-degree-bg">
       <div class="container">
         <div class="row d-flex mb-5 contact-info">
@@ -26,17 +70,14 @@ Ghumantey | Contact
             <h2 class="h4">Contact Information</h2>
           </div>
           <div class="w-100"></div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <p><span>Address:</span> Kathford International college </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <p><span>Phone:</span> <a href="tel://1234567920">+977 9868284426</a></p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <p><span>Email:</span> <a href="mailto:info@yoursite.com">74-ko-basanta@gmail.com</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Website</span> <a href="#">ghumantey.com</a></p>
           </div>
         </div>
         <div class="row block-9">
