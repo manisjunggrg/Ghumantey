@@ -23,11 +23,14 @@ Route::get('/about', function () {
 Route::get('/tour', function () {
     return view('vendor.tour');
 });
-Route::get('/hotel', function () {
-    return view('vendor.hotel');
+Route::get('/event', function () {
+    return view('vendor.blog');
 });
-Route::get('/blog', function () {
+Route::get('/blog-single', function () {
     return view('vendor.blog-single');
+});
+Route::get('/hire', function () {
+    return view('vendor.hire');
 });
 Route::get('/contact', function () {
     return view('vendor.contact');
@@ -35,24 +38,36 @@ Route::get('/contact', function () {
 Route::get('/index', function () {
     return view('vendor.index');
 });
-Route::get('/useradmin', function () {
-    return view('admin.index');
+
+Route::get('/place', function () {
+    return view('vendor.place');
 });
 
+Route::get('/detail_package', function () {
+    return view('vendor.detail_package');
+});
+
+Route::get('/customize_packages', function () {
+    return view('vendor.customize_packages');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 //for roles and permission
 Route::group(['middleware' => ['auth']], function() {
     Route::resource('roles','RoleController');
     Route::resource('users','UserController');
     Route::resource('products','ProductController');
+    Route::resource('message','MessageController');
+    Route::resource('tourist','TouristController');
+    Route::resource('review','ReviewController');
 });
+Route::Post('/getguide', 'GuideController@find');
+Route::get('/useradmin', 'ClientController@message');
+Route::resources([
+    'guide'=>'GuideController',
+        'client'=>'ClientController'
+]
+);
